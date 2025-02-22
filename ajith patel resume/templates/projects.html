@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Ajith Kumar</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('projects') }}">Projects</a>
+        <a href="{{ url_for('certifications') }}">Certifications</a>
+        <a href="{{ url_for('contact') }}">Contact</a>
+    </div>
+
+    <div class="container">
+        <h1>Projects</h1>
+
+        <div class="section">
+            <h2>User Authentication System</h2>
+            <p>Developed a secure authentication system with signup, login, and encrypted password storage using Node.js, Express.js, and MongoDB.</p>
+        </div>
+
+        <div class="section">
+            <h2>Instagram Clone</h2>
+            <p>Full-stack Instagram clone using React.js, Node.js, Express.js, and MongoDB. Features include user authentication (JWT-based), post creation, image uploads (Firebase Storage), likes, comments, and infinite scrolling for reels.</p>
+        </div>
+
+        <div class="section">
+            <h2>File Upload & Download System</h2>
+            <p>Built a file upload & download system using HTML, CSS, and JavaScript. Features file selection, preview, drag-and-drop support, and basic validation.</p>
+        </div>
+    </div>
+</body>
+</html>
